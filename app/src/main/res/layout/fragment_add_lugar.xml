@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10sp"
-    tools:context=".AddLugarFragment" >
+    tools:context=".ui.lugar.AddLugarFragment" >
 
     <EditText
         android:id="@+id/etNombre"
@@ -40,6 +40,7 @@
         android:inputType="textPersonName" />
 
     <Button
+        android:id="@+id/btAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/bt_add_lugar" />
