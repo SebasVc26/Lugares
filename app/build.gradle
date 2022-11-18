@@ -61,7 +61,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:21.0.8'
     implementation 'com.google.android.gms:play-services-location:19.0.1'
     testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //Se agregan estas librerias para usar anotaciones @Entity y demas
@@ -71,4 +71,8 @@ dependencies {
 
     //Para utilizar con navegación de fragmentos
     implementation 'androidx.navigation:navigation-dynamic-features-fragment:2.5.2'
+
+    //Librerias para el uso mejorado de imagenes
+    implementation 'com.github.bumptech.glide:glide:4.13.0'
+    implementation 'jp.wasabeef:glide-transformations:4.3.0'
 }
