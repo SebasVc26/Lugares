@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Lugares_j</string>
     <string name="tv_correo">Correo</string>
@@ -57,7 +58,4 @@
     <string name="msg_subiendo_imagen">Subiendo imagen</string>
     <string name="todo">Luego</string>
     <string name="msg_subiendo_lugar">Subiendo el lugar</string>
-    <string name="default_web_client_idr"
-        translatable="false">761636391098-nht9m08857sbe12p6psanphftoua31q5.apps.googleusercontent.com</string>
-
 </resources>
