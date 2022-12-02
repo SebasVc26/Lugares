@@ -42,7 +42,6 @@ class LugarFragment : Fragment() {
 
         lugarViewModel.getLugares.observe(viewLifecycleOwner){
             lugares -> lugarAdapter.settListaLugares(lugares)
-
         }
 
         return binding.root
